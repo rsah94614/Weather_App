@@ -1,19 +1,15 @@
 APIKYE = 'e22a3135396249ce88e120904240105';
 
 
-// API = http://api.weatherapi.com/v1/current.json?key=e22a3135396249ce88e120904240105&q=London&aqi=yes
-
 const searchBtn = document.getElementById('searchBtn');
 const cityInput = document.getElementById('cityInput');
 
 
-// referencing output fields
 const cityName = document.getElementById('city-name');
 const countryName = document.getElementById('countryName')
 const localTime= document.getElementById('loc-time');
 const temp = document.getElementById('temp')
 const sup = document.getElementById('sup')
-
 
 
 async function getData(KYE, cityName){
